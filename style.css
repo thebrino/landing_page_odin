@@ -58,8 +58,20 @@ body {
   color: #e5e7eb;
 }
 
+.hero .hero-menu {
+  display: flex;
+  justify-content: center;
+}
+
 .content-menu {
   display: flex;
+}
+
+.content-menu .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
 }
 
 .content-menu h1 {
@@ -82,4 +94,144 @@ body {
 
 .signup {
   width: 80px;
+}
+
+.section-1 {
+  width: 100%;
+  background-color: #fff;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+
+.section-1 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1 .title {
+  margin-top: 60px;
+}
+
+.section-1 .images {
+  display: flex;
+  gap: 60px;
+  padding: 60px;
+}
+
+.section-1 .images .img-1,
+.img-2,
+.img-3,
+.img-4 {
+  width: 175px;
+}
+
+.section-1 .images img {
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #3882f6;
+  border-width: medium;
+}
+
+.section-1 .images p {
+  text-align: center;
+}
+
+.section-2 {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section-2 .container {
+  display: flex;
+  justify-content: center;
+}
+
+.section-2 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 50px 80px 50px;
+  width: 60%;
+}
+
+.section-2 .quote p {
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.section-2 .author {
+  display: flex;
+  justify-content: right;
+}
+
+.section-3 {
+  background-color: #fff;
+  color: #f9faf8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section-3 .container {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  width: 100%;
+}
+
+.section-3 .content {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 60px 20px 60px 20px;
+  border-radius: 10px;
+}
+
+.section-3 .signup {
+  border: none;
+  background-color: transparent;
+  color: #f9faf8;
+  cursor: pointer;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: thin;
+  height: 30px;
+  width: 100px;
+  margin-left: 30px;
+  transition: 0.3s all;
+}
+
+.signup:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
