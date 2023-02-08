@@ -40,6 +40,7 @@ body {
 .hero .content-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .hero .content-header .logo {
@@ -92,8 +93,21 @@ body {
   align-items: left;
 }
 
-.signup {
-  width: 80px;
+.content-menu .signup {
+  width: 100px;
+  border: none;
+  background-color: transparent;
+  background-color: #3882f6;
+  color: #f9faf8;
+  cursor: pointer;
+  border-radius: 8px;
+  height: 30px;
+  transition: 0.3s all;
+}
+
+.content-menu button {
+  font-weight: 700;
+  font-size: 0.9rem;
 }
 
 .section-1 {
